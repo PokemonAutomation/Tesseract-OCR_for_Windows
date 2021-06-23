@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib\zlib.vcxproj", "{B6B31E79-633D-4C8B-8BEB-98E90394BC90}"
 EndProject
@@ -60,6 +60,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liblept", "liblept\liblept.
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwebp", "libwebp\libwebp.vcxproj", "{37AD3712-9022-4665-BB77-0CC8B2B49D8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tesseractPA", "tesseractPA\tesseractPA.vcxproj", "{09BAD1DB-EB91-4810-8736-4628AFFF56AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,8 +159,19 @@ Global
 		{37AD3712-9022-4665-BB77-0CC8B2B49D8A}.Release|x64.Build.0 = Release|x64
 		{37AD3712-9022-4665-BB77-0CC8B2B49D8A}.Release|x86.ActiveCfg = Release|Win32
 		{37AD3712-9022-4665-BB77-0CC8B2B49D8A}.Release|x86.Build.0 = Release|Win32
+		{09BAD1DB-EB91-4810-8736-4628AFFF56AB}.Debug|x64.ActiveCfg = Debug|x64
+		{09BAD1DB-EB91-4810-8736-4628AFFF56AB}.Debug|x64.Build.0 = Debug|x64
+		{09BAD1DB-EB91-4810-8736-4628AFFF56AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{09BAD1DB-EB91-4810-8736-4628AFFF56AB}.Debug|x86.Build.0 = Debug|Win32
+		{09BAD1DB-EB91-4810-8736-4628AFFF56AB}.Release|x64.ActiveCfg = Release|x64
+		{09BAD1DB-EB91-4810-8736-4628AFFF56AB}.Release|x64.Build.0 = Release|x64
+		{09BAD1DB-EB91-4810-8736-4628AFFF56AB}.Release|x86.ActiveCfg = Release|Win32
+		{09BAD1DB-EB91-4810-8736-4628AFFF56AB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82A3FB0D-46D0-4CE1-A62F-3921AF444FB0}
 	EndGlobalSection
 EndGlobal
