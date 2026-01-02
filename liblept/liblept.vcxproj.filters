@@ -936,9 +936,6 @@
     <ClCompile Include="..\leptonica\src\flipdetect.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\leptonica\src\fliphmtgen.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\leptonica\src\fmorphauto.c">
       <Filter>Source Files</Filter>
     </ClCompile>
